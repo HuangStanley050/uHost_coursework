@@ -12,6 +12,12 @@
     color: white;
 }
 
+.plan__list {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
 .section-title {
     color: #2ddf5c;
     /*font-family: inherit;*/
