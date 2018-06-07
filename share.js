@@ -21,7 +21,10 @@ function close_modal_window() {
     // modal.style.display = "none";
     //mobileNav.style.display = "none";
     //backdrop.style.display = "none";
-    modal.classList.remove("open");
+    if (modal) {
+        modal.classList.remove("open");
+    }
+
     backdrop.classList.remove("open");
     mobileNav.classList.remove("open");
 
