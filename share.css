@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Anton');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 * {
     box-sizing: border-box;
@@ -34,12 +36,16 @@ body {
     background: #2ddf5c;
     padding: 8px;
     z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.main-header>div {
+/*.main-header>div {
     display: inline-block;
     vertical-align: middle;
 }
+*/
 
 .toggle-button {
     width: 3rem;
@@ -68,14 +74,15 @@ body {
     color: #0e4f1f;
     text-decoration: none;
     font-weight: bold;
-    height: 2.5rem;
-    display: inline-block;
 
-    vertical-align: middle;
+    /*display: inline-block;
+
+    vertical-align: middle;*/
 }
 
 .main-header__brand img {
-    height: 100%;
+    vertical-align: middle;
+    height: 2.5rem;
 }
 
 .main-nav {
@@ -88,10 +95,11 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    display: flex;
 }
 
 .main-nav__item {
-    display: inline-block;
+    /*display: inline-block;*/
     margin: 0 16px;
 }
 
@@ -220,10 +228,11 @@ body {
         display: none;
     }
     .main-nav {
-        display: inline-block;
+        /*display: inline-block;
         text-align: right;
         width: calc(100% - 44px);
-        vertical-align: middle;
+        vertical-align: middle;*/
+        display: flex;
     }
 
     .main-footer__link {
